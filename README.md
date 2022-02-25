@@ -126,15 +126,15 @@ ReactiveFormsModule.
 FormControl, FormGroup, FormArray, AbstractControl, FormBuilder.
 
 ### V. Como é feita a configuração de um formulário reativo usando separadamente as classes base?
-??????????????????
+
 
 
 ### VI. Como se dá o fluxo de informações entre o formulário reativo e o componente em Angular?
-???????????????????????
+
 
 
 ### VII. Como é feita a captura dos dados de um formulário reativo e apresentado na tela?
-???????????????????????
+
 
 ### VIII. Explique para o que serve a validação de um formulário e como isto pode ser apresentado para o usuário?
 A validação serve para que se evite enviar/salvar dados inválidos, mostrando alguma mensagem sobre o erro para orientar o usuário adequadamente a inserir dados válidos.
