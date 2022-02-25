@@ -1,0 +1,50 @@
+<section>
+  <article>
+    <h3>Interpolação</h3>
+    <p>Meu nome é {{ name }} e o nome do meu guia é {{ guideName }}.</p>
+    <p>Data de hoje: {{ date }}</p>
+    <p>Faço parte da turma: {{ team }}</p>
+  </article>
+</section>
+
+<br> <br>
+
+<!-- Property binding é similar a interpolação mas na interpolação não conseguimos usar valores booleanos, 
+  esse exemplo demonstra property biding usando valor booleano. -->
+<section>
+  <article>
+    <h3>Property Biding</h3>
+    <input type="text" [value]="city" [disabled]="disable">
+  </article>
+</section>
+
+<br> <br>
+
+<!-- Adicionei o evento de click num botão e chamei o método de "botão clicado" onde ao clicar no botão o usuário recebe a mensagem do alert -->
+<section class="event-binding">
+  <article>
+    <h3>Event Binding</h3>
+    <div>
+      <button (click)="clickedBtn()" class="btn">
+        Me clique!
+      </button>
+    </div>
+  </article>
+</section>
+
+<br> <br>
+
+
+<!-- No input adicionei a diretiva ngModel com a sintaxe [()] onde [] vincula o atributo e o () vincula um evento e dessa forma é 
+  feita a sincronização de valores da interface do usuário para uma propriedade e vice-versa. Sempre que o usuário alterar o valor 
+  na interface do usuário, o valor da propriedade correspondente é atualizado automaticamente  -->
+<section>
+  <article>
+    <h3>Two-way Data Binding</h3>
+    <div>
+      <input type="text" [(ngModel)]="city" />
+
+      <p>Você digitou sua cidade: {{ city }}</p>
+    </div>
+  </article>
+</section>

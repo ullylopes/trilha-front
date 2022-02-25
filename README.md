@@ -65,7 +65,7 @@ Text Interpolation permite incorporar valores de string dinâmicos em seus templ
 Por exibir dados dinâmicos no modelo HTML, ele facilita nas alterações no arquivo component.ts e buscar dados de lá para o modelo HTML.
 
 ### III. Crie uma interpolação com o seu nome, com nome do seu guia, data do desafio e a sua turma do desafio.
-??????????????????????????????????????????????????????????
+Feito no component data-biding;
 
 ## f) A respeito de Bindings, responda:
 
@@ -78,7 +78,7 @@ Property Binding move um valor em uma direção, da propriedade de um componente
 
 
 ### III. Dê um exemplo de Property Binding e explique o seu funcionamento.
-??????????????????????
+Feito no componente data-biding e explicado.
 
 
 ### IV. O que é Event Binding?
@@ -86,13 +86,13 @@ Property Binding move um valor em uma direção, da propriedade de um componente
 
 
 ### V. Dê um exemplo de Event Binding e explique o seu funcionamento.
-??????????????????
+Feito no componente data-biding e explicado.
 
 ### VI. O que é Two-Way-Data-Binding e em quais cenários devemos usá-lo?
 Ele é usado para exibir informações ao usuário final e permite que faça alterações nos dados usando a interface do usuário. É uma maneira de compartilhar dados dos componentes. Conseguimos ouvir eventos e atualizar valores ao mesmo tempo entre componentes pai e filho.
 
 ### VII. Dê um exemplo de Two-Way-Data-Binding e explique.
-??????
+Feito no componente data-biding e explicado.
 
 ## Diretivas
 
