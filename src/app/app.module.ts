@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { FormsModule } from '@angular/forms';
+import { DiretivasComponent } from './diretivas/diretivas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DataBindingComponent
+    DataBindingComponent,
+    DiretivasComponent
   ],
   imports: [
     BrowserModule,

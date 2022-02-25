@@ -44,8 +44,8 @@ Angular CLI é uma ferramenta de linha de comando que permite adicionar componen
 Para trazer propriedades sobre o projeto, entre elas qual é o caminho do arquivo principal main.ts;
 
 ### VI. Quais pacotes (libs) são considerados primários (default)?
+BrowserModule, AppRoutingModule, Router, HttpClientModule, NgModule.
 
-?????????????????
 
 ### VII. Para que serve o arquivo package.json?
 Serve para definir e configurar dependências do projeto, quais outros pacotes ele vai precisar para ser executado. Através do package.json conseguimos definir uma indicação para executar um projeto.
@@ -107,7 +107,7 @@ Diretivas de atributo: alteram a aparência ou o comportamento de um elemento, c
 Diretivas estruturais: alteram o layout do DOM adicionando e removendo elementos DOM.
 
 ### III. O Angular possui algumas diretivas default, explique as 6 principais e dê um exemplo de cada.
-???????????
+NfIf, NgFor, NgSwitch, NgClass, NgStyle, NgControlName.
 
 ## h) Reactive forms:
 

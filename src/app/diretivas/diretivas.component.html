@@ -1,0 +1,45 @@
+<section>
+  <article>
+    <h3> ngIf </h3>
+    <div *ngIf="this.showName">
+      Nome: Ully Lopes
+    </div>
+
+    <div *ngIf="!this.showName">
+      Email: ully@ully.com
+    </div>
+
+    <br> <br>
+
+    <button (click)="this.toggleName()"> Alternar </button>
+  </article>
+</section>
+
+<br> <br>
+
+<section>
+  <article>
+    <h3> ngFor </h3>
+    <ul>
+      <li *ngFor="let person of people">
+        {{ person.name }}
+      </li>
+    </ul>
+  </article>
+</section>
+
+<br> <br>
+
+<section>
+  <article>
+    <h3> ngSwitch </h3>
+    <div [ngSwitch]="color">
+      <div *ngSwitchCase="'red'">Você escolheu a cor vermelha</div>
+      <div *ngSwitchCase="'blue'">Você escolheu a cor azul</div>
+      <div *ngSwitchCase="'white'">Você escolheu a cor branca</div>
+      <div *ngSwitchDefault>Escolha novamente</div>
+    </div>
+  </article>
+</section>
+
+<br> <br>
